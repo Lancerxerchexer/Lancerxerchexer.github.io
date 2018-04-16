@@ -1,8 +1,9 @@
 /*-------------------APPLIES TO ALL----------------------*/
 
-html, body {
+html body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 /*-----------------HEADER-----------------------*/
@@ -11,7 +12,7 @@ html, body {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/code.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -24,7 +25,7 @@ html, body {
 
 #header .desc-container {
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -34,3 +35,15 @@ html, body {
     font-size: 40px;
 }
 
+#header nav ul{
+    float: right;
+    color: white;
+    list-style: none;
+    position: absolute;
+    right: 0;
+}
+
+#header li {
+    float: left;
+    padding: 0 15px;
+}
