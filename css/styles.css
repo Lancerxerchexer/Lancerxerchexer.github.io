@@ -4,6 +4,7 @@ html body {
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 /*-----------------HEADER-----------------------*/
@@ -33,6 +34,13 @@ html body {
 #header h1 {
     color: white;
     font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#header h2 {
+    color: gray;
+    text-align: center;
 }
 
 #header nav ul{
@@ -46,4 +54,27 @@ html body {
 #header li {
     float: left;
     padding: 0 15px;
+    font-size: 17px;
+}
+
+#header i{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+/*---------------------ABOUT----------------------*/
+
+#about .about-container {
+    position: relative;
+    left: 50%;
+    transform: translate(50%, 50%);
+    background-color: white;
+}
+
+#about p {
+    color: white;
 }
