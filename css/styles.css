@@ -33,6 +33,11 @@ html body {
     text-align: center;
 }
 
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
 #header h1 {
     color: white;
     font-size: 40px;
@@ -46,7 +51,6 @@ html body {
 }
 
 #header nav ul{
-    float: right;
     color: white;
     list-style: none;
     position: absolute;
