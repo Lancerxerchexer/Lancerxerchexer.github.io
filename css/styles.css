@@ -84,5 +84,7 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: black;
+    font-size: 35px;
+    margin: 0 auto;
 }
