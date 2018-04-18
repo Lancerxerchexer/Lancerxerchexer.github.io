@@ -96,7 +96,7 @@ h2 {
 /*---------------------ABOUT----------------------*/
 
 #about {
-    background-color: blue;
+    background-color: white;
 }
 
 #about .section-headline {
@@ -105,15 +105,9 @@ h2 {
 
 h3 {
     color: white;
-    font-size: 35px;
+    font-size: 50px;
+    padding: 30px 0;
     margin: 0 auto;
-    padding: 0;
     text-align: center;
 }
 
-
-#header .nav-container {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 50px;
-}
