@@ -9,6 +9,14 @@ html body {
     overflow-x: hidden;
 }
 
+/*------------------REUSABLE--------------------*/
+
+.section-headline {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
 /*-----------------HEADER-----------------------*/
 
 #header {
@@ -52,12 +60,21 @@ h2 {
     text-align: center;
 }
 
+#header .nav-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 50px;
+}
+
 #header nav ul{
     color: white;
     list-style: none;
     position: absolute;
     right: 0;
+    transition: max-height 0.4s;
+    transform: translate(0,-50%);
     padding-right: 10px;
+    padding-top: 20px;
 }
 
 #header li {
@@ -78,15 +95,25 @@ h2 {
 
 /*---------------------ABOUT----------------------*/
 
-#about .about-container {
-    width: 100vw;
-    position: absolute;
-    text-align: center;
-    
+#about {
+    background-color: blue;
+}
+
+#about .section-headline {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 h3 {
-    color: black;
+    color: white;
     font-size: 35px;
     margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+#header .nav-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 50px;
 }
