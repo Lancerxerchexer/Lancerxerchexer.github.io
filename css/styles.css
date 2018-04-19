@@ -27,6 +27,14 @@ html body {
     background-attachment: fixed;
 }
 
+#header .background-texture {
+    background-image: url(../img/pattern-bg.png);
+    height: 100%;
+    width: 100vw;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
 #header .desc-container {
     position: absolute;
     top: 50%;
