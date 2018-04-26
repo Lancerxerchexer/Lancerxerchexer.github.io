@@ -71,6 +71,7 @@ h2 {
     width: 100vw;
     height: 50px;
     position: fixed;
+    z-index: 5;
 }
 
 #header nav ul{
