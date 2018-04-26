@@ -15,6 +15,9 @@ html body {
     text-align: center;
     font-size: 50px;
     font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
 }
 
 /*-----------------HEADER-----------------------*/
@@ -103,12 +106,6 @@ h2 {
     background-color: white;
 }
 
-#about .section-headline {
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin: 0 auto;
-}
-
 h3 {
     color: white;
     font-size: 50px;
@@ -118,26 +115,17 @@ h3 {
 }
 
 #about .about-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/goldengate.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/emeryville-1447247_1920.jpg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#about .background-texture {
-    background-image: url(../img/pattern-bg.png);
-    height: 100%;
-    width: 100vw;
-    background-repeat: repeat;
-    background-size: 10px;
-    background-attachment: fixed;
-}
-
 #about .text-container-transparent {
     width: 50vw;
     height: 50vh;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 25px;
     margin: 0 auto;
     transform: translateY(25%);
@@ -148,4 +136,12 @@ h3 {
 
 #about p {
     font-size: 20px;
+}
+
+/* ------------------------------BACKGROUND------------------------------------ */
+
+#background .background-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/high-tech-2975421_1280.jpg);
+    height: 90vh;
+    background-size: cover;
 }
