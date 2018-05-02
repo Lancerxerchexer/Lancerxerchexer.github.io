@@ -1,5 +1,7 @@
 /*-------------------APPLIES TO ALL----------------------*/
-
+* {
+    box-sizing: border-box;
+}
 html body {
     margin: 0 auto;
     padding: 0;
@@ -124,12 +126,11 @@ h3 {
 }
 
 #about .text-container-transparent {
-    width: 50vw;
-    height: 50vh;
+    width: fit-content;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 25px;
-    margin: 0 auto;
-    transform: translateY(25%);
+    margin: 20px 20px;
     color: white;
     padding: 20px;
     text-align: center;
@@ -145,4 +146,5 @@ h3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/high-tech-2975421_1280.jpg);
     height: 90vh;
     background-size: cover;
+    align-content: center;
 }
