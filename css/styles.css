@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-    color: lightgray    ;
+    color: lightgray;
     text-align: center;
 }
 
@@ -118,7 +118,7 @@ h3 {
 }
 
 #about .about-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/emeryville-1447247_1920.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/emeryville-1447247_1920.jpg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
