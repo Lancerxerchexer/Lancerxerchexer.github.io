@@ -134,6 +134,9 @@ h3 {
     color: white;
     padding: 20px;
     text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #about p {
