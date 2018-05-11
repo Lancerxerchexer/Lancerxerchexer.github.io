@@ -143,12 +143,12 @@ h3 {
 
 #background .background-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/high-tech-2975421_1280.jpg);
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     align-content: center;
 }
 
 #background li {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin: 10px 10px;
 }
